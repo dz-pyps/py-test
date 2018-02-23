@@ -12,6 +12,6 @@ notifications:
   slack:
     rooms:
       - secure: "oW7Tu0ywJt+sTVBG2NdgoxWxc0SEsh44aCp3+vAvg1q0Rcz8gT68Ug6a2NaSeU3tWHZ/3VxkZytelKBP5W6u30JGvfaSCZ/hlRIlU8PjhDsVp5i5r+LSSoKIg8LujzQH8KNAoh6Nq7ASaiHoAQ3JRq0ZHyR082vD7y4O7FF3ESfnC9wh7mW6SD3UwckztCmkbCn6xt80Wl03FTk/XYk0wq53j2M3EIju9HlfcqCh+RqQ6R+eFZ6vjQRmYospDdgNNLEo6iYXotRDVDpQkMHNGPyVVaTBIMDyj4E52VldHE6IEo4oFEoIEP8KCvLmp2HUS3h4PcnTxl5AtpJ3Vv+KiQiIAx4B1cPMjMd9aBdpyXdNjeBaoKGp99qDCypIUSR0qzMArs+gcj5wkQD02YtabcD5PlZRhHxO72YF1//rNFUqhobegFxN1/gr4dpWLuP1yKYlAj4zZ1fl2eIV70p8tlVEJ+rIIcBXEDHktGn7ZQAOGcSX8I7hQrvgqTmb2x9zTyj1Fi/Pjx0/2BpFR0ZMQUF7D+ovcnnCyj/9yGrmTSqLiQSWmrsnG0zwKwngVoauwZaRZfz5qDe1idon7Nldo+83CLx4C2wbH8PcvX4h0Sebcfi6BdtAUEIA2GlSrdPvE8sxg4lmeGFGQlKyQzh/liQg1IOrPPLOVI+TeOobk60="#automation
-    template:
-      - "%{repository_slug} (%{commit}) : %{message} %{foo} "
-      - "Build details: %{build_url}"
+#    template:
+#      - "%{repository_slug} (%{commit}) : %{message} %{foo} "
+#      - "Build details: %{build_url}"
